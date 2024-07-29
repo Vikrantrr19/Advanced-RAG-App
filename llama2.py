@@ -2,7 +2,7 @@ import boto3
 import json
 
 prompt_data="""
-Act as a Shakespeare and write a poem on Genertaive AI
+ write a poem on Genertaive AI using LLM and Bedrock
 """
 
 bedrock=boto3.client(service_name="bedrock-runtime")
